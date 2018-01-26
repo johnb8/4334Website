@@ -664,28 +664,7 @@ $(document).ready(function() {
   });
 });
 
-$(document).ready(function() {
-  $('#beakerhead2016').on('click', function(e) {
-      $(this).lightGallery({
-          dynamic: true,
-          dynamicEl: [{
-              src: 'http://via.placeholder.com/350x150',
-              thumb: 'http://via.placeholder.com/350x150'
-          },{
-              src: 'https://www.youtube.com/watch?v=meBbDqAXago',
-              thumb: 'https://sachinchoolur.github.io/lightGallery/static/img/thumb-v-y-1.jpg',
-              poster: 'https://sachinchoolur.github.io/lightGallery/static/img/videos/y-video1-cover.jpg'
-          },{
-              html: '#video2',
-              thumb: 'https://sachinchoolur.github.io/lightGallery/static/img/videos/y-video1-cover.jpg',
-              poster: 'https://sachinchoolur.github.io/lightGallery/static/img/thumb-v-y-1.jpg'
-          },{
-              src: 'https://sachinchoolur.github.io/lightGallery/static/img/4.jpg',
-              thumb: 'https://sachinchoolur.github.io/lightGallery/static/img/thumb-4.jpg'
-          }]
-      });
-  });
-});
+
 
 $(document).ready(function() {
   $('#championships2016').on('click', function(e) {
@@ -1426,6 +1405,7 @@ $(document).ready(function() {
       }];
   });
 });
+
 
 $(document).ready(function() {
   $('#sa2015').on('click', function(e) {
